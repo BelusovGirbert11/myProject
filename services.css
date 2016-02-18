@@ -1,0 +1,280 @@
+/* Services Start */
+
+/* Part 1 */
+
+.il_services_list{
+	padding-bottom:50px;
+	background-color:#ECECEC;
+}
+
+.il_services_list h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #818285;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.il_services_list .il_lists  h2{
+	font-size:16px;
+	font-family:arial;
+	line-height:21px;
+	color:#ED7823;
+	font-family:arial;
+}
+.il_services_list .il_lists h3{
+	font-size:16px;
+	padding-top:20px;
+	font-family:arial;
+	line-height:21px;
+	color:#838487;
+	font-family:arial;
+	padding-bottom:20px;
+}
+
+
+.il_services_list li + li {
+    border-top: 1px solid #d2d2d1;
+    margin-top: 8px;
+}
+.il_services_list li {
+    padding-top: 2px;
+    position: relative;
+    padding-left: 28px;
+    font-size: 13px;
+}
+
+.il_services_list li {
+    padding-top: 8px;
+    position: relative;
+    padding-left: 28px;
+    font-size: 12px;
+}
+
+.il_services_list li:before {
+    content: '\f061';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-weight: 400;
+    font-size: px;
+    font-family: "FontAwesome";
+    color: #ed7823;
+}
+
+.il_services_list li a{
+	color:#838487;
+	padding-top:2px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	font-size:14px;
+}
+
+.il_services_list li a:hover{
+	padding-left:10px;
+}
+
+.il_services_list li a:hover .il_services_list li:before{
+	left:10;
+}
+
+
+/* Part 3 */
+
+.il_offers{
+	padding-bottom:100px;
+	opacity:0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.il_offers .col-md-4 img{
+	width:100%;
+}
+
+.il_offers .col-md-4 h6{
+	font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #3a393a;
+	padding-bottom:20px;
+
+}
+
+.il_offers h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #818285;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.il_serv_cont  p{
+	font-size:16px;
+	padding-top:20px;
+	font-family:arial;
+	line-height:21px;
+	color:#838487;
+	font-family:arial;
+	padding-bottom:20px;
+}
+
+
+
+.il_serv_cont .il_span {
+    background-color: orange;
+    padding: 8px 11px;
+    display: inline-block;
+    background-color: #EC781E;
+    color: white;
+    margin-top: 15px;
+    font-size: 16px;
+    position: relative;
+}
+.il_serv_cont  a span {
+    font-size: 17px;
+    color: #EC781E;
+    font-family: arial;
+    padding-left: 10px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.il_serv_cont a:hover {
+    text-decoration: none;
+}
+.il_serv_cont a:hover span:first-child {
+    background-color: #000;
+    margin-left: 10px;
+}
+
+.il_serv_cont a:hover span:last-child {
+    color: #000;
+}
+
+/* Part 4 */
+
+.il_other_services{
+	padding-bottom:100px;
+	background-color:#ECECEC;
+	opacity:0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.il_other_services h1{
+	text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #818285;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.il_serv_list .col-md-4{
+	margin-top:30px;
+}
+
+.il_serv_list .col-md-4 h2{
+	font-size:16px;
+	font-family:arial;
+	line-height:21px;
+	color:#ED7823;
+	font-family:arial;
+}
+
+.il_serv_list .col-md-4 h3{
+	font-size:16px;
+	padding-top:20px;
+	font-family:arial;
+	line-height:21px;
+	color:#838487;
+	font-family:arial;
+	padding-bottom:20px;
+}
+
+.il_lists .col-md-3{
+	padding-left:0px;
+}
+
+/* Services End */
+
+
+	
+/*=============================================================================================================================================================
+
+																			@MEDIA ---> Start
+																								
+=============================================================================================================================================================*/
+
+@media screen and (max-width: 992px) {
+	.il_offers .col-md-4 h6{
+		font-size: 27px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.il_other_services h1,.il_offers h1,.il_services_list h1{
+		font-size:45px;
+	}
+	.il_lists,.il_offers,.il_serv_list {
+		width:450px;
+		margin:0 auto;
+	}
+	.il_lists .col-md-3{
+		padding-left:0px;
+	}
+	.il_offers .col-md-4 img{
+		width:auto;
+	}
+	.il_offers .col-md-4{
+		text-align:left;
+		margin-top:20px;
+	}
+	.il_offers h1{
+		padding-bottom:40px;
+	}
+	
+}
+
+@media screen and (max-width: 522px) {
+	.il_offers .col-md-4 img{
+		width:100%;
+	}
+	.il_lists,.il_offers,.il_serv_list {
+		width:100%;
+	}
+	.il_lists .col-md-3{
+		padding-left:0px;
+	}
+}
+
+
+
+
+
+
+/*=============================================================================================================================================================
+
+																			@MEDIA ---> End
+																								
+==============================================================================================================================================================*

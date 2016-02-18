@@ -1,0 +1,237 @@
+/* Contact-us Start */
+
+/* Part 2 */
+
+.il_contact_us{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.il_contact_us h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #818285;
+}
+
+.il_contact_us_cont p{
+	padding-top: 30px;
+    font-size: 17px;
+	color:#838487;
+	line-height:20px;
+	font-family:arial;
+}
+
+.il_contact_us_cont h3{
+	font-size:20px;
+	padding-top:20px;
+	font-family:arial;
+	line-height:23px;
+	color:#ED7823;
+	font-weight:bold;
+}
+.il_contact_us_cont  table{
+	margin-top:20px;
+	font-size: 18px;
+	color:#838487;
+	line-height:23px;
+}
+.il_contact_us_cont  table a{
+	color:#838487;
+}
+
+.il_contact_us_cont  table a:hover{
+	text-decoration:underline;
+}
+
+.il_contact_us_cont  table tr:last-child a{
+	color:#ED7823;
+	text-decoration:underline;
+}
+
+.il_contact_us_cont  table td{
+	padding-right:15px;
+
+}
+
+
+/* Part 2 */
+
+.il_contact_form .col-md-12 {
+	padding-bottom:20px;
+}
+
+.il_contact_form .col-md-12 input{
+	width:100%;
+	background: rgba(51, 51, 51, 0);
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    display: block;
+    width: 100%;
+    margin: 0;
+    -webkit-appearance: none;
+    outline: none;
+    font-family:sans-serif;
+    font-size: 16px;
+    padding: 3px 15px 3px 7px;
+    line-height: 24px;
+    color: #000;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding-top: 15px;
+}
+.il_contact_form .col-md-6 input{
+	width:100%;
+	background: rgba(51, 51, 51, 0);
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    display: block;
+    width: 100%;
+    margin: 0;
+    -webkit-appearance: none;
+    outline: none;
+    font-family:sans-serif;
+    font-size: 16px;
+    padding: 3px 15px 3px 7px;
+    line-height: 24px;
+    color: #000;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding-top: 15px;
+}
+
+
+.il_contact_form .col-md-12 textarea{
+	width:100%;
+	background: rgba(51, 51, 51, 0);
+    border:1px solid #D8D8D8;
+    display: block;
+    width: 100%;
+    margin: 0;
+    -webkit-appearance: none;
+    outline: none;
+    font-family:sans-serif;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding-top: 15px;
+	height:200px;
+}
+.il_contact_form .col-md-12 {
+	padding-top: 15px;
+}
+
+.il_contact_form .col-md-12 span{
+	display: inline-block;
+	margin-bottom:5px;
+	padding-left:8px;
+	font-family:arial;
+	font-size: 16px;
+	color:#B8B8BA;
+	margin-top:10px;
+}
+
+.il_contact_form .col-md-12:last-child{
+	padding-top:25px;
+}
+
+.il_contact_form h6{
+	text-align:center;
+}
+
+.il_contact_form h6  a {
+    display: inline-block;
+    word-spacing: normal;
+    margin-top: 11px;
+    padding: 14px 10px;
+    width: 70%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+    background: #ed7823;
+    color: #fff;
+    text-align: center;
+    font-family: arial;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.il_contact_form h6  a:hover{
+	background-color:#000;
+}
+/* Contact-us End */
+
+
+	
+/*====================================================================================================================================================================================
+
+																			@MEDIA ---> Start
+																								
+=====================================================================================================================================================================================*/
+
+@media screen and (max-width: 992px) {
+	
+	.il_contact_us h1 {
+		font-size: 43px;
+	}
+	.il_contact_us_cont p {
+		font-size: 15px;
+		padding-top:30px;
+	}
+	.il_contact_us_cont h3{
+	    font-size: 18px;
+	}
+	.il_contact_us_cont table{
+		font-size:15px;
+	}
+	.il_contact_form .col-md-6:nth-child(3) input{
+		padding-top:35px;
+	}
+	.il_contact_form .col-md-12:last-child{
+		padding-top:25px;
+	}
+	.il_contact_form .col-md-12 textarea{
+		overflow:hidden;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.il_contact_us {
+		width:450px;
+		margin:0 auto;
+	}
+	.il_contact_us .col-md-8 h1{
+		margin-top:30px;
+	}
+}
+
+@media screen and (max-width: 522px) {
+	.il_contact_us {
+		width:100%;
+	}
+	.il_contact_us .col-md-8{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.il_contact_form .col-md-12 {
+		padding-top: 30px;
+	}
+}
+
+
+
+
+
+
+/*====================================================================================================================================================================================
+
+																			@MEDIA ---> End
+																								
+=====================================================================================================================================================================================*/
